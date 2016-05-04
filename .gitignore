@@ -1,0 +1,5 @@
+vendor
+bin
+svn
+.svnAccess
+build

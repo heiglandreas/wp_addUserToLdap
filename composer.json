@@ -1,0 +1,28 @@
+{
+  "name" : "org_heigl/add-user-to-ldap",
+  "type" : "wordpress-plugin",
+  "description": "Add a user to an LDAP on registration",
+  "keywords": ["user","ldap"],
+  "homepage": "http://github.com/heiglandreas/add-user-to-ldap",
+  "license": "MIT",
+  "authors": [{
+    "name": "Andreas Heigl",
+    "email": "andreas@heigl.org",
+    "homepage": "http://andreas.heigl.org",
+    "role": "Developer"
+  }],
+  "require" : {
+    "php" : ">=5.5"
+  },
+  "require-dev": {
+    "pear/versioncontrol_svn": "^0.5.2",
+    "pear/pear": "dev-master",
+    "pear/versioncontrol_git": "dev-master",
+    "phpunit/phpunit": "^4.8|^5.3"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Org_Heigl\\Wordpress\\Plugins\\AddUserToLdap\\" : "src/"
+    }
+  }
+}
